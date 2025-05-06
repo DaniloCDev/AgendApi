@@ -8,22 +8,13 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.15" />
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.15" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
-          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-          <PrivateAssets>all</PrivateAssets>
-        </PackageReference>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.15"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Agenda.Application\Agenda.Application.csproj" />
       <ProjectReference Include="..\Agenda.Infrastructure\Agenda.Infrastructure.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Controllers\" />
-      <Folder Include="Middlewares\" />
     </ItemGroup>
 
 </Project>
